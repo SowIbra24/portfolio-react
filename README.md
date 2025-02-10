@@ -9,7 +9,6 @@ Bienvenue sur mon portfolio ! 👋 Je suis **BAH Mamadou (Mbah)**, étudiant à 
 - **HTML5** 📄
 - **CSS3** 🎨
 - **Git** 🐙
-- **Vite** 🚀 (pour la rapidité de développement)
 
 ## 🌟 Fonctionnalités
 
