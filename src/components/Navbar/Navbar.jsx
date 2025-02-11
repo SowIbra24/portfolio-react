@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Navbar.jsx                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mbah <mbah@student.42.fr>                  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/02/11 19:34:10 by mbah              #+#    #+#             */
+/*   Updated: 2025/02/11 19:38:14 by mbah             ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 import React, { useState } from "react";
 import "./Navbar.css";
 import MobileNav from "./MobileNav/MobileNav";
@@ -39,9 +51,11 @@ function NavBar() {
               <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Contact Me</Link>
             </li>
 
-            <button className="contact-btn" onClick={() => {}}>
-               <a href="./assets/images/cv.pdf">Hire Me</a>
-            </button>
+            <a href="./assets/images/cv.pdf">
+				<button className="contact-btn" onClick={() => {}}>
+					Here Me
+				</button>
+			</a>
           </ul>
 
           <button class="menu-btn" onClick={toggleMenu}>

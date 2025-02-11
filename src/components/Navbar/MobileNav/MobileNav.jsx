@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   MobileNav.jsx                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mbah <mbah@student.42.fr>                  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/02/11 19:33:56 by mbah              #+#    #+#             */
+/*   Updated: 2025/02/11 19:37:57 by mbah             ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 import React from "react";
 import "./MobileNav.css";
 
@@ -48,9 +60,11 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               </a>
             </li>
 
-            <button className="contact-btn" onClick={() => {}}>
-              <a href="./assets/images/cv.pdf">Hire Me</a>
-            </button>
+			<a href="./assets/images/cv.pdf">
+				<button className="contact-btn" onClick={() => {}}>
+					Here Me
+				</button>
+			</a>
           </ul>
         </div>
       </div>
