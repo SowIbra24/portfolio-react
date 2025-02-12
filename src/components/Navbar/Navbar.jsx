@@ -6,7 +6,7 @@
 /*   By: mbah <mbah@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/11 19:34:10 by mbah              #+#    #+#             */
-/*   Updated: 2025/02/11 19:38:14 by mbah             ###   ########.fr       */
+/*   Updated: 2025/02/12 17:14:21 by mbah             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ function NavBar() {
           <button class="menu-btn" onClick={toggleMenu}>
             <span
               class={"material-symbols-outlined"}
-              style={{ fontSize: "1.8rem" }}
+              style={{ fontSize: "1.8rem",  }}
             >
               {openMenu ? "close" : "menu"}
             </span>
